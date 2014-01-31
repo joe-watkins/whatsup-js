@@ -1,5 +1,5 @@
 # Introducing whatsUp.js
-A jQuery plugin written to make wrangling upcoming events easier.
+A jQuery plugin written to make wrangling upcoming events easier. Let's say you have a list of events outputted to the page and you only want to show the next 5 upcoming events from today's date.... whatsUp.js to the rescue.
 
 whatsUp.js leverages Date.js for date handling.
 
