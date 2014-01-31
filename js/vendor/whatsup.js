@@ -2,8 +2,7 @@
 * whatsUp
 * Author: Joe Watkins - joe-watkins.io
 * Licensed under the MIT license
-* http://james.padolsey.com/javascript/sorting-elements-with-jquery/
-* http://stackoverflow.com/questions/10636779/jquery-date-sorting
+* 
 */
 (function($){
  
