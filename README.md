@@ -15,15 +15,8 @@ Include jQuery 1.10+, date.js, and whatsUp.js and bind then initialize the plugi
   });
  </script>
 ```
-Hide the list items with CSS. The plugin will add a custom class to the item to show it. Here is what is being done in the demo
-```css
- ul.dates li {display: none; }
- ul.dates li.on {display: block; }
-```
 
-### Default example output
-Here we are targetting an unordered list and outputting the next 5 events, and rewriting the date to each list item in a different format than what the data-date attribute owns.
-
+Create a list of dates
 ```html
  <ul class="dates">
   <li data-date="01-Jan-2014"><span class="date"></span>...</li>
@@ -31,6 +24,15 @@ Here we are targetting an unordered list and outputting the next 5 events, and r
   <li data-date="05-Jan-2014"><span class="date"></span>...</li>
  </ul>
 ```
+
+Hide the list items with CSS. The plugin will add a custom class to the item to show it. Here is what is being done in the demo
+```css
+ ul.dates li {display: none; }
+ ul.dates li.on {display: block; }
+```
+
+### Default example output
+Here we are targeting an unordered list and outputting the next 5 events, and rewriting the date to each list item in a different format than what the data-date attribute owns.
 
 ```html
 	<script>
@@ -46,7 +48,7 @@ Here we are targetting an unordered list and outputting the next 5 events, and r
 	</script>
 ```
 
-The plugin will itterate through list items looking for a `data-date` attribute eg `data-date="01-Nov-2014"` by default. It will show you the next 5 events from today's date. There are many options you can set. You can even define a date window from today's date to show a certain number of events. The plugin can handle multiple date formats. Suggested format: `01-Nov-2014`
+The plugin will iterate through list items looking for a `data-date` attribute eg `data-date="01-Nov-2014"` by default. It will show you the next 5 events from today's date. There are many options you can set. You can even define a date window from today's date to show a certain number of events. The plugin can handle multiple date formats. Suggested format: `01-Nov-2014`
 
 ## Changelog
 * _01.31.14 - v1.0.0 - 4kb_
