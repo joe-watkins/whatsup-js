@@ -4,7 +4,7 @@ A jQuery plugin written to make wrangling upcoming events easier.
 whatsUp.js leverages Date.js for date handling.
 
 ## How Do I Use It?
-Include jQuery 1.7+, date.js, and whatsUp.js and bind then initialize the plugin by binding it to an element.
+Include jQuery 1.10+, date.js, and whatsUp.js and bind then initialize the plugin by binding it to an element.
 
 ```html
  <script src="js/vendor/date.js"></script>
