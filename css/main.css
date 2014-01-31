@@ -1,0 +1,3 @@
+ul {margin:0px;padding:0px;}
+ul.dates li {list-style:none; display: none; }
+ul.dates li.on {display: block; }

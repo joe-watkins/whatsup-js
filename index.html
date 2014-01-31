@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>whatsUp.js - Handle Upcoming Events in the DOM</title>
+        <meta name="description" content="A simple jQuery plugin to handle upcoming events.">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/?locale=en">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+         <ul class="dates">
+
+            <li data-date="01-Jan-2014"><span class="date"></span>...</li>
+            <li data-date="02-Jan-2014"><span class="date"></span>...</li>
+            <li data-date="05-Jan-2014"><span class="date"></span>...</li>
+            <li data-date="08-Jan-2014"><span class="date"></span>...</li>
+            <li data-date="10-Jan-2014"><span class="date"></span>...</li>
+            <li data-date="13-Jan-2014"><span class="date"></span>...</li>
+            <li data-date="15-Jan-2014"><span class="date"></span>...</li>
+            <li data-date="17-Jan-2014"><span class="date"></span>...</li>
+            <li data-date="22-Jan-2014"><span class="date"></span>...</li>
+            <li data-date="26-Jan-2014"><span class="date"></span>...</li>
+            <li data-date="28-Jan-2014"><span class="date"></span>...</li>
+            <li data-date="29-Jan-2014"><span class="date"></span>...</li>
+            <li data-date="30-Jan-2014"><span class="date"></span>...</li>
+            <li data-date="31-Jan-2014"><span class="date"></span>...</li>
+
+            <li data-date="01-Feb-2014"><span class="date"></span>...</li>
+            <li data-date="02-Feb-2014"><span class="date"></span>...</li>
+            <li data-date="05-Feb-2014"><span class="date"></span>...</li>
+            <li data-date="08-Feb-2014"><span class="date"></span>...</li>
+            <li data-date="10-Feb-2014"><span class="date"></span>...</li>
+            <li data-date="13-Feb-2014"><span class="date"></span>...</li>
+            <li data-date="15-Feb-2014"><span class="date"></span>...</li>
+            <li data-date="17-Feb-2014"><span class="date"></span>...</li>
+            <li data-date="22-Feb-2014"><span class="date"></span>...</li>
+            <li data-date="26-Feb-2014"><span class="date"></span>...</li>
+            <li data-date="28-Feb-2014"><span class="date"></span>...</li>
+
+            <li data-date="01-Mar-2014"><span class="date"></span>...</li>
+            <li data-date="02-Mar-2014"><span class="date"></span>...</li>
+            <li data-date="05-Mar-2014"><span class="date"></span>...</li>
+            <li data-date="08-Mar-2014"><span class="date"></span>...</li>
+            <li data-date="10-Mar-2014"><span class="date"></span>...</li>
+            <li data-date="13-Mar-2014"><span class="date"></span>...</li>
+            <li data-date="15-Mar-2014"><span class="date"></span>...</li>
+            <li data-date="17-Mar-2014"><span class="date"></span>...</li>
+            <li data-date="22-Mar-2014"><span class="date"></span>...</li>
+            <li data-date="26-Mar-2014"><span class="date"></span>...</li>
+            <li data-date="28-Mar-2014"><span class="date"></span>...</li>
+            <li data-date="29-Mar-2014"><span class="date"></span>...</li>
+
+            <li data-date="01-Apr-2014"><span class="date"></span>...</li>
+            <li data-date="02-Apr-2014"><span class="date"></span>...</li>
+            <li data-date="05-Apr-2014"><span class="date"></span>...</li>
+            <li data-date="08-Apr-2014"><span class="date"></span>...</li>
+            <li data-date="10-Apr-2014"><span class="date"></span>...</li>
+            <li data-date="13-Apr-2014"><span class="date"></span>...</li>
+            <li data-date="15-Apr-2014"><span class="date"></span>...</li>
+            <li data-date="17-Apr-2014"><span class="date"></span>...</li>
+            <li data-date="22-Apr-2014"><span class="date"></span>...</li>
+            <li data-date="26-Apr-2014"><span class="date"></span>...</li>
+            <li data-date="28-Apr-2014"><span class="date"></span>...</li>
+            <li data-date="29-Apr-2014"><span class="date"></span>...</li>
+
+            <li data-date="01-May-2014"><span class="date"></span>...</li>
+            <li data-date="02-May-2014"><span class="date"></span>...</li>
+            <li data-date="05-May-2014"><span class="date"></span>...</li>
+            <li data-date="08-May-2014"><span class="date"></span>...</li>
+            <li data-date="10-May-2014"><span class="date"></span>...</li>
+            <li data-date="13-May-2014"><span class="date"></span>...</li>
+            <li data-date="15-May-2014"><span class="date"></span>...</li>
+            <li data-date="17-May-2014"><span class="date"></span>...</li>
+            <li data-date="22-May-2014"><span class="date"></span>...</li>
+            <li data-date="26-May-2014"><span class="date"></span>...</li>
+            <li data-date="28-May-2014"><span class="date"></span>...</li>
+            <li data-date="29-May-2014"><span class="date"></span>...</li>
+
+            <li data-date="01-Jun-2014"><span class="date"></span>...</li>
+            <li data-date="02-Jun-2014"><span class="date"></span>...</li>
+            <li data-date="05-Jun-2014"><span class="date"></span>...</li>
+            <li data-date="08-Jun-2014"><span class="date"></span>...</li>
+            <li data-date="10-Jun-2014"><span class="date"></span>...</li>
+            <li data-date="13-Jun-2014"><span class="date"></span>...</li>
+            <li data-date="15-Jun-2014"><span class="date"></span>...</li>
+            <li data-date="17-Jun-2014"><span class="date"></span>...</li>
+            <li data-date="22-Jun-2014"><span class="date"></span>...</li>
+            <li data-date="26-Jun-2014"><span class="date"></span>...</li>
+            <li data-date="28-Jun-2014"><span class="date"></span>...</li>
+            <li data-date="29-Jun-2014"><span class="date"></span>...</li>
+
+            <li data-date="01-Jul-2014"><span class="date"></span>...</li>
+            <li data-date="02-Jul-2014"><span class="date"></span>...</li>
+            <li data-date="05-Jul-2014"><span class="date"></span>...</li>
+            <li data-date="08-Jul-2014"><span class="date"></span>...</li>
+            <li data-date="10-Jul-2014"><span class="date"></span>...</li>
+            <li data-date="13-Jul-2014"><span class="date"></span>...</li>
+            <li data-date="15-Jul-2014"><span class="date"></span>...</li>
+            <li data-date="17-Jul-2014"><span class="date"></span>...</li>
+            <li data-date="22-Jul-2014"><span class="date"></span>...</li>
+            <li data-date="26-Jul-2014"><span class="date"></span>...</li>
+            <li data-date="28-Jul-2014"><span class="date"></span>...</li>
+            <li data-date="29-Jul-2014"><span class="date"></span>...</li>
+
+            <li data-date="01-Aug-2014"><span class="date"></span>...</li>
+            <li data-date="02-Aug-2014"><span class="date"></span>...</li>
+            <li data-date="05-Aug-2014"><span class="date"></span>...</li>
+            <li data-date="08-Aug-2014"><span class="date"></span>...</li>
+            <li data-date="10-Aug-2014"><span class="date"></span>...</li>
+            <li data-date="13-Aug-2014"><span class="date"></span>...</li>
+            <li data-date="15-Aug-2014"><span class="date"></span>...</li>
+            <li data-date="17-Aug-2014"><span class="date"></span>...</li>
+            <li data-date="22-Aug-2014"><span class="date"></span>...</li>
+            <li data-date="26-Aug-2014"><span class="date"></span>...</li>
+            <li data-date="28-Aug-2014"><span class="date"></span>...</li>
+            <li data-date="29-Aug-2014"><span class="date"></span>...</li>
+
+            <li data-date="01-Sep-2014"><span class="date"></span>...</li>
+            <li data-date="02-Sep-2014"><span class="date"></span>...</li>
+            <li data-date="05-Sep-2014"><span class="date"></span>...</li>
+            <li data-date="08-Sep-2014"><span class="date"></span>...</li>
+            <li data-date="10-Sep-2014"><span class="date"></span>...</li>
+            <li data-date="13-Sep-2014"><span class="date"></span>...</li>
+            <li data-date="15-Sep-2014"><span class="date"></span>...</li>
+            <li data-date="17-Sep-2014"><span class="date"></span>...</li>
+            <li data-date="22-Sep-2014"><span class="date"></span>...</li>
+            <li data-date="26-Sep-2014"><span class="date"></span>...</li>
+            <li data-date="28-Sep-2014"><span class="date"></span>...</li>
+            <li data-date="29-Sep-2014"><span class="date"></span>...</li>
+
+
+            <li data-date="01-Oct-2014"><span class="date"></span>...</li>
+            <li data-date="02-Oct-2014"><span class="date"></span>...</li>
+            <li data-date="05-Oct-2014"><span class="date"></span>...</li>
+            <li data-date="08-Oct-2014"><span class="date"></span>...</li>
+            <li data-date="10-Oct-2014"><span class="date"></span>...</li>
+            <li data-date="13-Oct-2014"><span class="date"></span>...</li>
+            <li data-date="15-Oct-2014"><span class="date"></span>...</li>
+            <li data-date="17-Oct-2014"><span class="date"></span>...</li>
+            <li data-date="22-Oct-2014"><span class="date"></span>...</li>
+            <li data-date="26-Oct-2014"><span class="date"></span>...</li>
+            <li data-date="28-Oct-2014"><span class="date"></span>...</li>
+            <li data-date="29-Oct-2014"><span class="date"></span>...</li>
+
+            <li data-date="01-Nov-2014"><span class="date"></span>...</li>
+            <li data-date="02-Nov-2014"><span class="date"></span>...</li>
+            <li data-date="05-Nov-2014"><span class="date"></span>...</li>
+            <li data-date="08-Nov-2014"><span class="date"></span>...</li>
+            <li data-date="10-Nov-2014"><span class="date"></span>...</li>
+            <li data-date="13-Nov-2014"><span class="date"></span>...</li>
+            <li data-date="15-Nov-2014"><span class="date"></span>...</li>
+            <li data-date="17-Nov-2014"><span class="date"></span>...</li>
+            <li data-date="22-Nov-2014"><span class="date"></span>...</li>
+            <li data-date="26-Nov-2014"><span class="date"></span>...</li>
+            <li data-date="28-Nov-2014"><span class="date"></span>...</li>
+            <li data-date="29-Nov-2014"><span class="date"></span>...</li>
+          
+            <li data-date="01-Dec-2014"><span class="date"></span>...</li>
+            <li data-date="02-Dec-2014"><span class="date"></span>...</li>
+            <li data-date="05-Dec-2014"><span class="date"></span>...</li>
+            <li data-date="08-Dec-2014"><span class="date"></span>...</li>
+            <li data-date="10-Dec-2014"><span class="date"></span>...</li>
+            <li data-date="13-Dec-2014"><span class="date"></span>...</li>
+            <li data-date="15-Dec-2014"><span class="date"></span>...</li>
+            <li data-date="17-Dec-2014"><span class="date"></span>...</li>
+            <li data-date="22-Dec-2014"><span class="date"></span>...</li>
+            <li data-date="26-Dec-2014"><span class="date"></span>...</li>
+            <li data-date="28-Dec-2014"><span class="date"></span>...</li>
+            <li data-date="29-Dec-2014"><span class="date"></span>...</li>
+
+        </ul>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+
+        <script src="js/vendor/date.js"></script>
+        <script src="js/vendor/whatsup.js"></script>
+        
+        <script>
+            $("ul.dates").whatsUp({
+              items :           'li',
+              output:           'default', //default, dateWindow
+              dateWindow :      7, // days
+              howMany:          5,
+              debug:            false,
+              rewrite:          true,
+              rewriteTarget:    'span.date',
+              visibleClass:     'on'
+            });
+        </script>
+
+    </body>
+</html>
