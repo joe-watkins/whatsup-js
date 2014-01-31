@@ -6,18 +6,6 @@ whatsUp.js leverages Date.js for date handling.
 Visit the [demo page](http://codepen.io/joe-watkins/full/sKmEb)
 
 ## How Do I Use It?
-Include jQuery 1.10+, date.js, and whatsUp.js - initialize the plugin by binding it to an element.
-
-```html
- <script src="js/vendor/date.js"></script>
- <script src="js/vendor/whatsup.js"></script>
- <script>
-  $(document).ready(function(){
-    $("ul.dates").whatsUp();
-  });
- </script>
-```
-
 Create a list of dates
 ```html
  <ul class="dates">
@@ -31,6 +19,18 @@ Hide the list items with CSS. The plugin will add a custom class to the item to 
 ```css
  ul.dates li {display: none; }
  ul.dates li.on {display: block; }
+```
+
+Include jQuery 1.10+, date.js, and whatsUp.js - initialize the plugin by binding it to an element.
+
+```html
+ <script src="js/vendor/date.js"></script>
+ <script src="js/vendor/whatsup.js"></script>
+ <script>
+  $(document).ready(function(){
+    $("ul.dates").whatsUp();
+  });
+ </script>
 ```
 
 ### Default example output
