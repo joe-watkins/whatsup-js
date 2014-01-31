@@ -6,7 +6,7 @@ whatsUp.js leverages Date.js for date handling.
 Visit the [demo page](http://codepen.io/joe-watkins/full/sKmEb)
 
 ## How Do I Use It?
-Include jQuery 1.10+, date.js, and whatsUp.js and bind then initialize the plugin by binding it to an element.
+Include jQuery 1.10+, date.js, and whatsUp.js - initialize the plugin by binding it to an element.
 
 ```html
  <script src="js/vendor/date.js"></script>
