@@ -29,7 +29,7 @@ Here we are targetting an unordered list and outputting the next 5 events, and r
   <li data-date="01-Jan-2014"><span class="date"></span>...</li>
   <li data-date="02-Jan-2014"><span class="date"></span>...</li>
   <li data-date="05-Jan-2014"><span class="date"></span>...</li>
-</ul>
+ </ul>
 ```
 
 ```html
