@@ -3,6 +3,8 @@ A jQuery plugin written to make wrangling upcoming events easier. Let's say you 
 
 whatsUp.js leverages Date.js for date handling.
 
+Visit the [demo page](http://codepen.io/joe-watkins/full/sKmEb)
+
 ## How Do I Use It?
 Include jQuery 1.10+, date.js, and whatsUp.js and bind then initialize the plugin by binding it to an element.
 
