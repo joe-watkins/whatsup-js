@@ -21,7 +21,7 @@ Hide the list items with CSS. The plugin will add a custom class to the item to 
  ul.dates li.on {display: block; }
 ```
 
-### example output
+### Default example output
 Here we are targetting an unordered list and outputting the next 5 events, and rewriting the date to each list item in a different format than what the data-date attribute owns.
 
 ```html
@@ -37,9 +37,7 @@ Here we are targetting an unordered list and outputting the next 5 events, and r
 	  $("ul.dates").whatsUp({
 	    items :           'li', // list items
 	    output:           'default', //default, dateWindow
-	    dateWindow :      7, // size of dateWindow
 	    howMany:          5, // how many events to show
-	    debug:            false, // will console.log stuff
 	    rewrite:          true, // will inject a fancy date
 	    rewriteTarget:    'span.date', // target of fancy date
 	    rewriteFormat:  	'MMMM dS yyyy', // format of fancy date
