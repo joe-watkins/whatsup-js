@@ -25,6 +25,14 @@ Hide the list items with CSS. The plugin will add a custom class to the item to 
 Here we are targetting an unordered list and outputting the next 5 events, and rewriting the date to each list item in a different format than what the data-date attribute owns.
 
 ```html
+ <ul class="dates">
+  <li data-date="01-Jan-2014"><span class="date"></span>...</li>
+  <li data-date="02-Jan-2014"><span class="date"></span>...</li>
+  <li data-date="05-Jan-2014"><span class="date"></span>...</li>
+</ul>
+```
+
+```html
 	<script>
 	  $("ul.dates").whatsUp({
 	    items :           'li', // list items
