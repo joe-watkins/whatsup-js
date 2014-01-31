@@ -17,8 +17,7 @@ Include jQuery 1.7+, date.js, and whatsUp.js and bind then initialize the plugin
 ```
 Hide the list items with CSS. The plugin will add a custom class to the item to show it. Here is what is being done in the demo
 ```css
- ul {margin:0px;padding:0px;}
- ul.dates li {list-style:none; display: none; }
+ ul.dates li {display: none; }
  ul.dates li.on {display: block; }
 ```
 
