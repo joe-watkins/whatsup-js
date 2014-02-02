@@ -52,7 +52,24 @@ Here we are targeting an unordered list and outputting the next 5 events, and re
 
 The plugin will iterate through list items looking for a `data-date` attribute eg `data-date="01-Nov-2014"` by default. It will show you the next 5 events from today's date. There are many options you can set. You can even define a date window from today's date to show a certain number of events. The plugin can handle multiple date formats. Suggested format: `01-Nov-2014`
 
+### Date Window
+You can also simply define a date window to show events. If an event's date is within the given date window it will be shown.
+
+```html
+	<script>
+	  $("ul.dates").whatsUp({
+	    output:           'dateWindow', //default, dateWindow
+	    dateWindowStart:  '01-Jan-2014',
+	    dateWindowEnd:  '05-Mar-2014'
+	  });
+	</script>
+```
+
+Trigger the dateWindow output by changing the ```output``` to ```dateWindow``` then define a dates in ```dateWindowStart``` and ``` dateWindowEnd``` options. The ```howMany``` option has no effect in this case.
+
 ## Changelog
+* _02.02.14 - v1.0.1 - 4kb_
+	* Added dateWindow functionality
 * _01.31.14 - v1.0.0 - 4kb_
 	* Initial release
 
