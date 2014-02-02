@@ -37,7 +37,6 @@
                 dateWindow = Date.parse(o.fakeDate).add(o.dateWindow).days();
           }else{
             var today = Date.today();
-                //dateWindow = Date.today().add(o.dateWindow).days();
           }
 
           // if using dateWindow
