@@ -33,7 +33,7 @@ Include jQuery 1.10+, date.js, and whatsUp.js - initialize the plugin by binding
  </script>
 ```
 
-### Default example output
+### Default Output
 Here we are targeting an unordered list and outputting the next 5 events, and rewriting the date to each list item in a different format than what the data-date attribute owns.
 
 ```html
@@ -52,7 +52,7 @@ Here we are targeting an unordered list and outputting the next 5 events, and re
 
 The plugin will iterate through list items looking for a `data-date` attribute eg `data-date="01-Nov-2014"` by default. It will show you the next 5 events from today's date. There are many options you can set. You can even define a date window from today's date to show a certain number of events. The plugin can handle multiple date formats. Suggested format: `01-Nov-2014`
 
-### Date Window
+### Date Window Output
 You can also simply define a date window to show events. If an event's date is within the given date window it will be shown.
 
 ```html
