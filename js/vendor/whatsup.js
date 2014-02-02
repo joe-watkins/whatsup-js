@@ -15,7 +15,7 @@
           output:         "default", // default,dateWindow
           dateWindow:     7,
           howMany:        5,
-          fakeDate:       "31-Jan-2014",
+          fakeDate:       "",
           debug:          false,
           rewrite:        false,
           rewriteTarget:  "",
@@ -29,7 +29,7 @@
           // run code
           var $dates = o.wrapper.find(o.items);
 
-          if(o.fakeDate){
+          if(o.fakeDate != ""){
             var today = Date.parse(o.fakeDate),
                 dateWindow = Date.parse(o.fakeDate).add(o.dateWindow).days();
           }else{
