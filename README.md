@@ -68,7 +68,7 @@ You can also simply define a date window to show events. If an event's date is w
 Trigger the dateWindow output by changing the ```output``` to ```dateWindow``` then define a dates in ```dateWindowStart``` and ``` dateWindowEnd``` options. The ```howMany``` option has no effect in this case.
 
 ## Changelog
-* _02.02.14 - v1.0.1 - 4kb_
+* _02.02.14 - v1.2.0 - 4kb_
 	* Added dateWindow functionality
 * _01.31.14 - v1.0.0 - 4kb_
 	* Initial release
