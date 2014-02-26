@@ -55,7 +55,9 @@
 
             // default output
             if(o.output == 'default'){
-              var visibleEvents = $(o.wrapper).find('li.'+o.visibleClass).length;
+              var visibleEvents = $(o.wrapper).find(o.items+'.'+o.visibleClass).length;
+
+              console.log(visibleEvents);
               
               // add class to today's event if there is a match
               var dateMatch = Date.compare(today, itemDate);
@@ -90,6 +92,8 @@
           // check to make sure we o.howMany visible
           var shownEvents = o.wrapper.find('.'+o.visibleClass).length,
               eventDiff = o.howMany - shownEvents;
+
+              console.log(eventDiff);
 
               for (var i = 0; i < eventDiff; i++) {
                 o.wrapper.find('.on').last().next().addClass('on');
