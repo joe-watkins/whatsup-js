@@ -69,7 +69,7 @@ Trigger the dateWindow output by changing the ```output``` to ```dateWindow``` t
 
 ## Changelog
 * _02.26.14 - v1.3.0 - 4kb_
-	* Fixed JS bug having to do with a hardcoded value forcing the user to use < li > for list items.
+	* Fixed JS bug having to do with a hardcoded value forcing the user to use `<li>` for list items.
 * _02.02.14 - v1.2.0 - 4kb_
 	* Added dateWindow functionality
 * _01.31.14 - v1.0.0 - 4kb_
